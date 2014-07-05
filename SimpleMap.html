@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Simple Map with Grid</title>
+
+    <!-- jquery library --> 
+    <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script> 
+    <script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+
+    <style>
+
+    h2 
+    {
+      font: 22px sans-serif;
+      padding: 20px;
+      margin: auto;
+      text-align: center;
+    }
+
+    canvas 
+    {
+      display: block;
+      margin: auto;
+    }
+
+    img
+    {
+      display: none;
+    }
+
+    </style>
+    
+  </head>
+
+  <body onload="init();">
+
+    <h2>Simple Map with Grid</h2>
+
+    <canvas id="canvas" width="1000" height="500">
+    Sorry, browser does not support canvas.
+    </canvas>
+
+    <img src = "images/grass.png" id = "grass" />
+    <img src = "images/flower.png" id = "flower" />
+
+  </body>
+
+  <!-- javascript -->
+  <script type="text/javascript" src="SimpleMap.js"></script>
+
+</html>
